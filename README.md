@@ -1,4 +1,3 @@
-```markdown
 # README: Q-Learning Pathfinding Project
 
 ## Project Overview
