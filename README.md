@@ -9,11 +9,10 @@ This project focuses on implementing and training an intelligent agent to solve 
    - The experience replay mechanism (`GameExperience.py`).
    - Neural network model initialization and related components.
    
-2. **Self-Created Code**:  
-   - Implementation of the `qtrain` function, including exploration and exploitation mechanisms, experience replay, and neural network training.
-   - Epsilon decay logic for balancing exploration and exploitation.
+2. **COntributed Code**:  
+   - Implementation of the `qtrain` function, including exploration and exploitation mechanisms using epsilon decay, experience replay, and neural network training.
+   - Epsilon decay logic for shifting from high exploration to low exploration rates episode-by-episode (minimum 10% exploration).
    - Win rate tracking and training termination conditions.
-   - Utility function `format_time` for monitoring training duration.
 
 ## Learning Connection to Computer Science
 
@@ -29,15 +28,15 @@ As a computer scientist, problem-solving involves:
 
 ### Ethical Responsibilities
 1. **To the End User**: 
-   - Ensure that intelligent systems prioritize user safety and fairness.
-   - Design systems that are transparent and easy to understand, minimizing unintended consequences.
+   - Ensure that intelligent systems prioritize user safety and minimize bias.
+   - Design systems that are transparent and easy to understand, minimizing unintended negative consequences.
    - Avoid biases in training data or algorithms that could lead to harmful decisions.
 
 2. **To the Organization**:
-   - Deliver efficient, maintainable code that aligns with project goals and deadlines.
+   - Deliver efficient, maintainable code that aligns with project goals, budgets, and deadlines.
    - Maintain integrity in testing and evaluation to ensure trustworthy results.
    - Be mindful of the broader societal impacts of the technology being developed, ensuring that it aligns with ethical principles and organizational values.
 
 ## Conclusion
 This project showcased the application of Q-learning and neural networks to solve a complex problem, highlighting the practical use of computer science techniques in artificial intelligence. By approaching the problem methodically, leveraging foundational concepts, and maintaining ethical considerations, the work aligns with the broader goals and responsibilities of the computer science field.
-```
+
